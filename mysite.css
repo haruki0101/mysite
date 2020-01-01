@@ -46,11 +46,18 @@ nav{
 	line-height: 70px;
 }
 
+.nav-item a{
+	text-decoration: none;
+	color: white;
+}
+
 .main-visual{
 	background-image: url(img/mv.png);
 	background-size: cover;
 	width: 100%;
 	height: 650px;
+	text-align: center;
+	background-position: center;
 }
 
 .mv-text{
@@ -263,13 +270,14 @@ nav{
 	background-position: center;
 }
 
-.profile-right h3{
+.myname{
 	padding: 0px 0 5px 0;
 	font-size: 20px;
 }
 
 .myskill{
 	padding-top: 20px;
+	font-size: 20px;
 }
 
 .contact{
